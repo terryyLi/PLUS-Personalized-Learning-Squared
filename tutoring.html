@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <!--custom css-->
+    <link href="index.css" rel="stylesheet" />
+    <link href="general.css" rel="stylesheet" />
+    <link href="other-pages.css" rel="stylesheet" />
+    <script>
+        $(function(){ $("head").load("head.html", function() { pageNavSetup(); });  });
+    </script>
+  </head>
+
+<body>
+<div id="content" style="display: none;">
+    <div id="page-title" style="display: none;">solutions</div>
+    <div id="banner"></div>
+    <div id="header" class="sticky-top"></div>
+
+    <div class="container-fluid p-3 p-sm-0">
+        <div class="container">
+            <div class="container row px-5 mr-5 ml-1 mt-2">
+                <div class="col-6 align-self-center">
+                    <h1>PLUS Tutoring </h1>
+                    <h3 class="d-none d-lg-block mt-3">
+                        Trained Tutors on Tap
+                    </h3>
+                </div>
+                <div class="col align-self-center">
+                    <img class="img-fluid" src="images/PLUS_Website_illustration/Tutoring/Frame 7-2.svg">
+                </div>
+            </div>
+
+
+            <div class="container row px-5 mr-5 ml-2 pt-3">
+                <p class="body-font-small">
+                    The COVID-19 pandemic has exacerbated the national shortage of qualified tutors. To address this shortage, we have started a new endeavor to create a reserve of part-time tutors from local school and colleges in the Western Pennsylvania region. 
+                    <br><br>
+                    Our tutors will be fully trained, certified, and will have approriate clearances to teach elementary and middle school math on-demand.
+                    <br><br>
+                    If you would like to learn more about this program or would like to deploy our tutors at your institution, fill out the form below!
+                </p>               
+            </div>
+
+            <div class="container row px-5 mr-5 ml-2 pt-3 pb-5 mb-5">
+                <div class="col-md-6" style="margin-bottom: 1rem !important;">
+                    <div class="row justify-content-center">
+                        <img class="img-fluid pb-md-4" src="images/PLUS_Website_illustration/Tutoring/Group 324.svg" alt="group of people">
+                    </div>
+                    <div class="row px-2 justify-content-center">
+                        Small-group, high-dosage instruction
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row justify-content-center">
+                        <img class="img-fluid pb-md-4" src="images/PLUS_Website_illustration/Tutoring/Group 326.svg" alt="person in front of chalkboard">
+                    </div>
+                    <div class="row px-2 justify-content-center">
+                        In-person in the greater Pittsburgh<br>region or virtually
+                    </div>
+                </div>
+
+            </div>
+
+        </div> 
+    </div>
+    <div class="py-5" style="background: #FDC247; width:100%">
+        <div class="text-center">
+            <h1 class="mt-4 pb-4 text-center">
+                Join Us and Get Involved!
+            </h1>
+            <p>
+                If you are interested in our solutions, contact us <br>to become our partner, a learner, or tutor.
+            </p>
+            <div class="py-2 contact-button">
+                <a href="contact.html">
+                    <button class="btn-primary py-2 px-5" type="button">
+                        Contact Us
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="footer"></div>
+</div>
+<script>
+    getScrollPercentage();
+    $("form").submit(function() {submitData_solution(event);});
+    validateBeforeSubmit_contactform(event); 
+</script>
+</body>
+</html>

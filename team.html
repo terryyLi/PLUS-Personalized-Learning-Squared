@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <!--custom css-->
+    <link href="index.css" rel="stylesheet" />
+    <link href="general.css" rel="stylesheet" />
+    <link href="other-pages.css" rel="stylesheet" />
+    <script>
+        $(function(){ $("head").load("head.html", function() { pageNavSetup(); });  });
+    </script>
+  </head>
+
+<body>
+    <div id="content" style="display: none;">
+        <div id="page-title" style="display: none;">about</div>
+        <div id="banner"></div>
+        <div id="header" class="sticky-top"></div>
+
+        <div class="container-fluid p-0">
+            <div class="container pb-5">
+                <div class="container row px-5 mr-5 ml-2 mt-5 pt-5">
+                    <h1>
+                        Our Team
+                    </h1>
+                </div>
+
+                <div class="container row px-5 mr-5 ml-2 pt-4">
+                  <h3>
+                    Carnegie Mellon University
+                  </h3>
+                </div>
+
+                <div class="container row team px-5 mr-5 ml-2 mt-3">
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Ken Koedinger" class="img-fluid" src="images/team/ken.png" /></div>
+                        <div class="team-name">Ken Koedinger</div>
+                        <div class="team-affiliation body-font-small">PLUS Founder and Professor at HCII</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Shivang Gupta" class="img-fluid" src="images/team/shiv.jpg" /></div>
+                        <div class="team-name">Shivang Gupta</div>
+                        <div class="team-affiliation body-font-small">Head of Product</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Danielle Thomas" class="img-fluid" src="images/team/danielle.png" /></div>
+                        <div class="team-name">Dr. Danielle Thomas</div>
+                        <div class="team-affiliation body-font-small">Research Lead</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Erin Gatz" class="img-fluid" src="images/team/erin.jpg" /></div>
+                        <div class="team-name">Erin Gatz</div>
+                        <div class="team-affiliation body-font-small">Head of Partnerships</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Lee Branstetter" class="img-fluid" src="images/team/lee-branstetter.jpg" /></div>
+                        <div class="team-name">Lee Branstetter</div>
+                        <div class="team-affiliation body-font-small">Professor at Heinz</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Vincent Aleven" class="img-fluid" src="images/team/vincent.jpeg" /></div>
+                        <div class="team-name">Vincent Aleven</div>
+                        <div class="team-affiliation body-font-small">Professor at HCII</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Cindy Tipper" class="img-fluid" src="images/team/cindy.png" /></div>
+                        <div class="team-name">Cindy Tipper</div>
+                        <div class="team-affiliation body-font-small">Software Lead</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Joe Kopko" class="img-fluid" src="images/team/joe.png" /></div>
+                        <div class="team-name">Joe Kopko</div>
+                        <div class="team-affiliation body-font-small">Software Engineer</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="John Lawson" class="img-fluid" src="images/team/jl.jpg" /></div>
+                        <div class="team-name">John Lawson</div>
+                        <div class="team-affiliation body-font-small">Software Engineer</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Elizabeth McLaughlin" class="img-fluid" src="images/team/mimi.png" /></div>
+                        <div class="team-name">Elizabeth McLaughlin</div>
+                        <div class="team-affiliation body-font-small">Research Scientist</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Hui Cheng" class="img-fluid" src="images/team/hui.png" /></div>
+                        <div class="team-name">Hui Cheng</div>
+                        <div class="team-affiliation body-font-small">QA Engineer</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Paulo Carvalho" class="img-fluid" src="images/team/paulo.png" /></div>
+                        <div class="team-name">Dr. Paulo Carvalho</div>
+                        <div class="team-affiliation body-font-small">Research Scientist</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Lokesh Fulfagar" class="img-fluid" src="images/team/lokesh.jpg" /></div>
+                        <div class="team-name">Lokesh Fulfagar</div>
+                        <div class="team-affiliation body-font-small">Product Designer</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Dennis Peter George" class="img-fluid" src="images/team/dennis.jpg" /></div>
+                        <div class="team-name">Dennis Peter George</div>
+                        <div class="team-affiliation body-font-small">Software Engineer Intern</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Saphal Patro" class="img-fluid" src="images/team/saphal.jpg" /></div>
+                        <div class="team-name">Saphal Patro</div>
+                        <div class="team-affiliation body-font-small">Software Engineer Intern</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Siddharth Basu" class="img-fluid" src="images/team/siddharth.jpeg" /></div>
+                        <div class="team-name">Siddharth Basu</div>
+                        <div class="team-affiliation body-font-small">Software Engineer Intern</div>
+                    </div>
+                </div>
+
+                <div class="container row px-5 mr-5 ml-2 pt-4">
+                  <h3>
+                    Carnegie Learning
+                  </h3>
+                </div>
+
+                <div class="container row team px-5 mr-5 ml-2 mt-3">
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Steve Ritter" class="img-fluid" src="images/team/carnegie/ritter.jpg" /></div>
+                        <div class="team-name">Steve Ritter</div>
+                        <div class="team-affiliation body-font-small">Founder and Chief Scientist</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Steve Fancsali" class="img-fluid" src="images/team/carnegie/fancsali.jpg" /></div>
+                        <div class="team-name">Steve Fancsali</div>
+                        <div class="team-affiliation body-font-small">Director of Advanced Analytics</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Peter LaCasse" class="img-fluid" src="images/team/carnegie/peter.png" /></div>
+                        <div class="team-name">Peter LaCasse</div>
+                        <div class="team-affiliation body-font-small">Chief Strategy Officer</div>
+                    </div>
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Courtney Lewis" class="img-fluid" src="images/team/carnegie/courtney.jpg" /></div>
+                        <div class="team-name">Courtney Lewis</div>
+                        <div class="team-affiliation body-font-small">VP, Tutoring Services</div>
+                    </div>
+                </div>
+
+                <div class="container row px-5 mr-5 ml-2 pt-4">
+                  <h3>
+                    Stanford University
+                  </h3>
+                </div>
+
+                <div class="container row team px-5 mr-5 ml-2 mt-3">
+                    <div class="col-6 col-md-3 mb-5">
+                        <div><img alt="Emma Brunskill" class="img-fluid" src="images/team/ebrunskill.jpg" /></div>
+                        <div class="team-name">Emma Brunskill</div>
+                        <div class="team-affiliation body-font-small">Professor</div>
+                    </div>
+                </div>
+                
+                <!-- 1/30/23: Hiding CUE until a new contract is signed. -->
+                <div style="display: none" class="container row px-5 mr-5 ml-2 pt-5 mt-5">
+                    <h3>
+                        University of Pittsburgh Center for Urban Education (CUE) Team
+                    </h3>
+                </div>
+
+                <div style="display: none" class="container row team px-5 mr-5 ml-2">
+                    <div class="col-6 col-md-3">
+                        <div><a href="https://www.cue.pitt.edu/person/t-elon-dancy-phd" target="_blank"><img alt="T Elon Dancy" class="img-fluid" src="images/team/cue/elond.png" /></a></div>
+                        <div class="team-name">Dr. T. Elon Dancy</div>
+                        <div class="team-affiliation body-font-small">
+                            Executive Director, CUE 
+                            <br>Helen S. Faison Endowed<br> Professor in Urban Education
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div><img alt="Carmen Thomas-Brown" class="img-fluid" src="images/team/cue/carmentb.png" /></div>
+                        <div class="team-name">Dr. Carmen Thomas-Brown</div>
+                        <div class="team-affiliation body-font-small">
+                            Faculty Member, CUE
+                            <br>
+                            University of Pittsburgh<br> School of Education
+                        </div>
+            
+                        
+                    </div>
+                    <div class="col-6 col-md-3">
+                        <div><a href="https://www.cue.pitt.edu/person/cassandra-brentley" target="_blank"><img alt="Cassandra Brentley" class="img-fluid" src="images/team/cue/cassandrab.png" /></a></div>
+                        <div class="team-name">Cassandra Brentley</div>
+                        <div class="team-affiliation body-font-small">
+                            Director of Special Projects, CUE
+                            <br>
+                            University of Pittsburgh<br>  School of Education
+                        </div>
+                        
+                        
+                    </div>
+
+                </div>
+
+            </div>
+        </div> <!-- End Container -->
+
+        <div id="gradient-bg" class="container-fluid gradient-bg" style="background-image:url(images/bgs/team_bg-min.svg)">
+            <div class="container pb-5">
+                <div class="container px-5 ml-2 py-5">
+                    <div class="row pb-3">
+                        <h2>Previous Collaborators</h2>
+                    </div>
+                    <div class="row mt-3 justify-content-around">
+                        <div class="col-3 px-3">
+                            <div class="h3 pb-2 row">PhD & Postdoctoral</div>
+                            <div class="row">
+                                Peter Schaldenbrand<br>
+                                Dr. Elizabeth Richey<br>
+                                Dr. Nikki Lobczowski<br>
+                                Dr. Maggie Hannan<br>
+                                Dr. Adetunji Adeniran<br>
+                                Dr. Pallavi Chhabra<br>
+                            </div>
+
+                            <div class="h3 pb-2 pt-5 row">Masters</div>
+                            <div class="row pb-5">
+                                Congying Zhang<br>
+                                Jennifer Lee<br>
+                                Aman Sinha<br>
+                                Donovan So<br>
+                                Jingyi (Jenny) Song<br>
+                                Xinyu (Scinko) Yang<br>
+                                Xinlu Gou<br>
+                                Mingzhe Li<br>
+                            </div>
+                        </div>
+                        <div class="col-3 px-3">
+                            <div class="h3 pb-2 row">Undergraduate</div>
+                            <div class="row ">
+                                Jamie Park<br>
+                                Grace Joseph<br>
+                                Crystal Li<br>
+                                Ankitha Vasudev<br>
+                                Sarah Chen<br>
+                                Yifan Cui<br>
+                                Sen Feng<br>
+                                Kimberly Gao<br>
+                                Lillian Hao<br>
+                                Iris Kang<br>
+                                Michelle Lee<br>
+                                Terry Li<br>
+                                Zhengyi (Eric) Li<br>
+                                Tina Lin<br>
+                                Julia Liu<br>
+                                Karen Wu<br>
+                                Brenna Wrubel<br>
+                                Cindy Xiong<br>
+                                Stella Yan<br>
+                                Wenqing Yin<br>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div> <!-- End Container -->
+        <div id="footer"></div>
+    </div>
+    <script>
+        getScrollPercentage();
+    </script>
+</body>
+</html>
